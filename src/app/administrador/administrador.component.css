@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif&display=swap');
+
+.card-body img{
+    width: 50px;
+    height: 50px;
+}
+.card{
+    margin: 5%;
+    width: 350px;
+    height: 250px;
+}
+.btn-outline-purple{
+    border-color: #7a297a;
+    color: #7a297a;
+    background-color: transparent;
+}
+
+.btn-outline-purple:hover{
+    background-color: #7a297a;
+    color: white;
+}
+
+.bg{
+    background-image: url(../../assets/image/fundogeo.jpg);
+    background-position: right top;
+    background-repeat: repeat-y;
+    height: 100%;
+}
+
+#fotoConec{
+    width: 60%;
+    height: 70%;
+}
+
+h3{
+    
+    font-family: 'Noto Serif', serif;
+    font-size: 50px;
+    color:#7a297a;
+    margin-left: 32%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+
+}
+
+.valores
+{
+    width:120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 3%;
+   
+}

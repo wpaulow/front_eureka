@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Cabin&display=swap');
+
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+
+
+.profile-post{
+    border-radius: 50%;
+    margin: 10px;
+    border: 1px solid black;
+    width:50px; 
+    height:50px;
+}
+
+.profile-card{
+    border-radius: 50%; 
+    border: 1px black solid;   
+}
+
+.card-esquerdo{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+
+.bg{
+   /* background: url(../../assets/image/fundo-cinza.png) no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-siz: cover;
+    -o-bakground-size: cover;
+    background-size: cover;*/
+
+    background-color: #dce0e4ef;
+}
+.badges img:hover {
+   
+    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    margin-left: 2%;
+    margin-right: 2%;
+    
+}
+.btn-outline-purple{
+    border-color: #7a297a;
+    color: #7a297a;
+    background-color: transparent;
+}
+
+.btn-outline-purple:hover{
+    background-color: #7a297a;
+    color: white;
+}
+#cardEventos{
+    background-color: white;
+    width: 281.25px;
+}
+
+.trofeuheader{
+    width: 281.25px;
+    background-color:#f8f9fa;
+}
+
+.balao2{
+    margin: 0 auto; 
+    background: white;
+    font-family: 'open sans';
+    font-size: 30%;
+    line-height: 1.6em;  
+    border-radius: 15px;
+    width: 300px;
+    height: auto;
+    color: black;
+    padding: 20px;
+    position: relative;
+    margin-top: 30px;
+    border: 1px solid black
+}
+
+.balao {
+    font-family: 'open sans';
+    
+    /*margin-bottom: 30%; 
+    margin-left: 20%;*/
+
+    background: #000;
+    border-radius: 30px 30px 30px 30px;
+    width: 400px;
+    height: 100px;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    background-color:white;
+
+    -webkit-box-shadow: 2px 1px 3px 2px rgba(122,41,122,0.28);
+-moz-box-shadow: 2px 1px 3px 2px rgba(122,41,122,0.28);
+box-shadow: 2px 1px 3px 2px rgba(122,41,122,0.28);
+  
+    /* Position relative para a seta não exceder os limites do balão, já que vamos usar position absolute nele */
+    position: relative;
+    /*margin-bottom: 1em;*/
+}
+
+
+#postimg{
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    border: 1px solid white;
+    
+  
+}
+
+.p-20{
+    padding: 10px;
+}
+.card-footer{
+    width: 101%;
+    height: 10%;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px ;
+    right: 1.5px;  
+}
+
+#botaoPerfil{
+    display: flex;
+    justify-content: center;
+}
+
+.corpoPost{
+    font-family: 'Dosis', sans-serif;
+}
+
+.tituloPost{
+    font-family: 'Cabin', sans-serif;
+}
+
+#conquistasTitulo{
+    font-size: 120%;
+    margin-top: 7%;
+    font-family: 'Cabin', sans-serif;
+    color: black;
+    margin-left: 2%;
+
+
+}
+
+.trofeu
+{
+    margin-top: 15%;
+}
+
+
+
+
+

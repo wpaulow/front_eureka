@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif&display=swap');
+
+#box-ajuda{
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.card{
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 1%;
+}
+
+.form-group{
+    margin: 10%;
+}
+
+.btn-outline-purple{
+    
+    border-color: #7a297a;
+    color: #7a297a;
+    background-color: transparent;
+}
+
+.btn-outline-purple:hover{
+    background-color: #7a297a;
+    color: white;
+}
+
+#fundo{
+    padding: 0%;
+}
+
+.bg{
+    background-image: url(../../assets/image/fundogeo.jpg);
+    background-position: right top;
+    background-repeat: repeat-y;
+}
+
+h1{
+    font-family: 'Noto Serif', serif;
+    color: #7a297a; 
+    font-size: 50px;
+}
